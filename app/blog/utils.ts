@@ -13,6 +13,7 @@ type Metadata = {
   summary: string
   image?: string
   author?: string | Author
+  jihunHI?: string
 }
 
 function parseFrontmatter(fileContent: string) {
