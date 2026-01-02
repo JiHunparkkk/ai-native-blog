@@ -37,7 +37,7 @@ export function AuthorProfile({ author }: AuthorProfileProps) {
             Written by
           </p>
           <p className="font-semibold text-neutral-900 dark:text-neutral-100 mb-1">
-            {author.name}
+            {author.name} Sir
           </p>
           <p className="text-sm text-neutral-700 dark:text-neutral-300">
             {author.bio}
